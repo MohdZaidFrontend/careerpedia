@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 
 import { useState } from "react";
 
-
 const NewHeader = ({ headerData, altdata }) => {
-
-
   const [userData, setUserData] = useState({
     name: "",
     phone: "",
@@ -26,7 +23,7 @@ const NewHeader = ({ headerData, altdata }) => {
     event.preventDefault();
     const { name, phone } = userData;
 
-    if (name && phone && phone.length == 10) {
+    if (name && phone && phone.length === 10) {
       const res = await fetch(
         "https://careerpedia-data-default-rtdb.firebaseio.com/UserData.json",
         {
@@ -37,7 +34,6 @@ const NewHeader = ({ headerData, altdata }) => {
           body: JSON.stringify({
             name,
             phone,
-            
           }),
         }
       );
@@ -46,7 +42,6 @@ const NewHeader = ({ headerData, altdata }) => {
         setUserData({
           name: "",
           phone: "",
-         
         });
         alert("Thank you for the details. We will get back to you shortly!");
         window.location.reload();
@@ -58,10 +53,8 @@ const NewHeader = ({ headerData, altdata }) => {
     }
   };
 
-
   return (
     <section className="course-header">
-
       <div className="left-section">
         <div className="steps">
           <Link to="/" exact>
@@ -94,7 +87,7 @@ const NewHeader = ({ headerData, altdata }) => {
           const { pageName } = item;
           return (
             <h1>
-              Expert-Level <span>Certificate in Digital Marketing</span>
+              Expert-Level <span>Certificate in {pageName}</span>
             </h1>
           );
         })}
@@ -119,7 +112,7 @@ const NewHeader = ({ headerData, altdata }) => {
         <div className="certifiation">
           <h3>Certification</h3>
           <div className="images">
-            <img src={require("../Assets/NewAssets/certificates.png")} alt="" />
+            <img src={require("../Assets/NewAssets/certificates.png")} className="bigger-certificate" alt="" />
             <img src={require("../Assets/NewAssets/google.png")} alt="" />
             <img src={require("../Assets/NewAssets/hubspot.png")} alt="" />
             <span>+10 more</span>

@@ -52,7 +52,7 @@ const DigitalMarketing = () => {
       id: 1,
       pageName: "Digital Marketing",
       pageDetails:
-        " Careerpedia delivers unparalleled learning experiences. Gain 10+ Google & Facebook recognized digital marketing certifications. Build a Brand by mastering digital skills and advancing your marketing career.",
+        "Careerpedia delivers unparalleled learning experiences. Gain 10+ Google & Facebook recognized digital marketing certifications. Build a Brand by mastering digital skills and advancing your marketing career.",
       img: HeaderImg,
     },
   ];

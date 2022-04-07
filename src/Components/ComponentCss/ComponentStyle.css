@@ -4866,6 +4866,10 @@
   gap: 20px;
 }
 
+.course-header .left-section .certifiation .images .bigger-certificate {
+ width: 100px;
+}
+
 .course-header .left-section .certifiation .images span {
   color: #9a9a9a;
   font-size: 20px;
@@ -5036,6 +5040,10 @@
   .course-header .left-section .certifiation .images span {
     font-size: 17px;
   }
+
+  .course-header .left-section .certifiation .images .bigger-certificate {
+ width: 80px;
+}
 
   .course-header .left-section .boxes {
     gap: 30px;
