@@ -33,7 +33,9 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Careerpedia</title>
+        <title>
+          India's #1 training via live global projects with placements
+        </title>
         <meta
           name="description"
           content="Careerpedia is a TECHNOLOGY & DESIGN learning platform that only works on building the “PRACTICAL KNOWLEDGE” of the students."
