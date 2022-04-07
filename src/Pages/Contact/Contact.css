@@ -1,0 +1,111 @@
+.overlay {
+  overflow-y: hidden;
+  position: fixed;
+  z-index: 999999999999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay .contact {
+  background-color: white;
+  padding: 60px 40px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.overlay .contact .contact-img {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.overlay .contact h2 {
+  color: #2c4364;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.overlay .contact .field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.overlay .contact label {
+  display: block;
+  color: #2c4364;
+  font-size: 20px;
+}
+
+.overlay .contact input {
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 7px;
+  font-size: 15px;
+  color: black;
+}
+
+.overlay .contact .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.overlay .contact .btn button {
+  margin-top: 20px;
+  padding: 12px 80px;
+  background: #ffc53d 0% 0% no-repeat padding-box;
+  border: 3px solid #dea110;
+  border-radius: 42px;
+  font-size: 17px;
+  font-weight: 800;
+  color: #070707;
+}
+
+.brochure-form {
+  width: 400px;
+}
+
+.brochure-form span {
+  color: red;
+}
+
+.brochure-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+@media (max-width: 600px) {
+  .overlay .contact {
+    margin: 0 20px;
+    padding: 40px 20px;
+  }
+
+  .overlay .contact h2 {
+    font-size: 27px;
+  }
+
+  .overlay .contact label {
+    font-size: 16px;
+  }
+
+  .brochure-form {
+    width: 300px;
+  }
+
+  .brochure-btn {
+    gap: 20px;
+  }
+}

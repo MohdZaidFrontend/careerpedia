@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+:root {
+  --darkBlue: #2c4364;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: white;
+  background: #2f4362;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #2f4362;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  *::-webkit-scrollbar {
+    width: 1px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+small,
+label,
+span {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-family: Montserrat;
+  text-decoration: none;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media (max-width: 1700px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 820px) {
+  h1 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+
+.under-construction {
+  padding: 50px;
+  width: 100%;
+}
+
+.under-construction .nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.under-construction .nav img {
+  width: 256px;
+}
+
+.under-construction .hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.under-construction .hero-img img {
+  width: 683px;
+}
+
+.under-construction .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.under-construction .details h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+
+.under-construction .details h2 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+.under-construction .details h2 span {
+  text-align: center;
+  color: #e86a01;
+}
+
+@media (max-width: 1600px) {
+  .under-construction {
+    padding: 30px 50px;
+  }
+
+  .under-construction .nav {
+    margin-bottom: 30px;
+  }
+
+  .under-construction .nav img {
+    width: 180px;
+  }
+
+  .under-construction .hero-img img {
+    width: 450px;
+  }
+
+  .under-construction .hero-img {
+    margin-bottom: 30px;
+  }
+
+  .under-construction .details {
+    gap: 20px;
+  }
+
+  .under-construction .details h1 {
+    font-size: 36px;
+  }
+
+  .under-construction .details h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .under-construction .nav {
+    margin-bottom: 20px;
+  }
+
+  .under-construction .nav img {
+    width: 150px;
+  }
+
+  .under-construction .hero-img img {
+    width: 400px;
+  }
+
+  .under-construction .hero-img {
+    margin-bottom: 20px;
+  }
+
+  .under-construction .details {
+    gap: 15px;
+  }
+
+  .under-construction .details h1 {
+    font-size: 32px;
+  }
+
+  .under-construction .details h2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .under-construction {
+    padding: 20px 10px;
+  }
+
+  .under-construction .nav {
+    margin-bottom: 50px;
+  }
+
+  .under-construction .nav img {
+    width: 160px;
+  }
+
+  .under-construction .hero-img img {
+    width: 350px;
+  }
+
+  .under-construction .hero-img {
+    margin-bottom: 30px;
+  }
+
+  .under-construction .details {
+    gap: 10px;
+  }
+
+  .under-construction .details h1 {
+    font-size: 22px;
+  }
+
+  .under-construction .details h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

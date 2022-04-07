@@ -1,0 +1,450 @@
+/********************** About Header Start *******************/
+
+.about-header {
+  position: relative;
+  top: 8.5vh;
+  padding: 100px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.about-header h1 {
+  font-size: 75px;
+  color: #2f4362;
+  text-shadow: 6px 8px 20px #0000001a;
+}
+
+.about-header h1 span {
+  color: #2768cc;
+}
+
+.about-header .sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.about-header .sections .left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.about-header .sections .left-section h2 {
+  font-size: 40px;
+  color: #2f4362;
+}
+
+.about-header .sections .left-section h2 span {
+  color: #2768cc;
+}
+
+.about-header .sections .left-section .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.about-header .sections .left-section .details p {
+  font-size: 25px;
+  color: #787878;
+  line-height: 37px;
+}
+
+@media (max-width: 1700px) {
+  .about-header {
+    padding: 80px 100px;
+    gap: 40px;
+  }
+
+  .about-header h1 {
+    font-size: 55px;
+  }
+
+  .about-header .sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .about-header .sections .left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-header .sections .left-section h2 {
+    font-size: 34px;
+  }
+
+  .about-header .sections .left-section .details {
+    gap: 30px;
+  }
+
+  .about-header .sections .left-section .details p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .about-header .sections .right-section img {
+    height: 450px;
+  }
+}
+
+
+@media(max-width:1400px){
+    .about-header .sections {
+        gap: 100px;
+    }
+}
+
+@media(max-width:1100px){
+    .about-header .sections {
+ flex-direction: column-reverse;
+  gap: 30px;
+}
+
+ .about-header .sections .right-section img {
+    height: 300px;
+  }
+}
+
+
+@media(max-width:700px){
+   .about-header {
+    padding: 80px 20px;
+    gap: 20px;
+  }
+
+  .about-header .sections .left-section .details p {
+  text-align: center;
+}
+}
+
+/********************** Quotation Section Start *******************/
+
+.quotations {
+  padding: 130px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0 20px;
+}
+
+.quotations .quote {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px 30px;
+}
+
+.quotations .quote .data {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.quotations .quote .demo {
+  display: grid;
+  gap: 10px;
+}
+.quotations .quote .data p {
+  color: #000000;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.quotations .quote .data img {
+  width: 30px;
+  text-align: center;
+}
+
+.quotations .quote .data small {
+  color: #000000;
+  font-style: italic;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.quotations .quote img {
+  width: 200px;
+}
+
+@media (max-width: 1860px) {
+  .quotations .quote {
+    width: 700px;
+  }
+}
+
+@media (max-width: 1660px) {
+  .quotations {
+    padding: 100px 60px;
+  }
+
+  .quotations .quote {
+    width: 650px;
+  }
+
+  .quotations .quote .data p {
+    font-size: 20px;
+  }
+
+  .quotations .quote .data img {
+    width: 19px;
+  }
+
+  .quotations .quote .data small {
+    font-size: 16px;
+  }
+
+  .quotations .quote img {
+    width: 180px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .quotations .quote {
+    width: 600px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .quotations .quote {
+    width: 550px;
+  }
+}
+
+@media (max-width: 700px) {
+  .quotations {
+    padding: 40px 20px;
+
+    gap: 20px;
+  }
+}
+
+/********************** Others Section Start *******************/
+.others {
+  padding: 100px 140px;
+}
+
+.others .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+.others .section.section-reverse {
+  flex-direction: row-reverse;
+}
+
+.others .section .data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.others .section .data h2 {
+  font-size: 40px;
+  color: black;
+}
+
+.others .section .data h2 span {
+  color: #2768cc;
+}
+
+.others .section .data p {
+  font-size: 25px;
+  color: #787878;
+  line-height: 37px;
+}
+
+
+
+.others .section img {
+    width: 600px;
+  }
+
+#root > div > div > section.others > div:nth-child(1) > img{
+  width: 500px;
+}
+
+#root > div > div > section.others > div:nth-child(1) > div{
+  width: 45%;
+}
+
+
+
+@media (max-width: 1700px) {
+  .others {
+    padding: 80px 150px;
+  }
+
+  .others .section {
+    gap: 100px;
+    margin-bottom: 80px;
+  }
+
+  .others .section .data {
+    gap: 15px;
+  }
+
+  .others .section .data h2 {
+    font-size: 30px;
+  }
+
+  .others .section .data p {
+    font-size: 18px;
+
+    line-height: 28px;
+  }
+/* 
+  .others .section img {
+    width: 400px;
+  } */
+
+  #root > div > div > section.others > div:nth-child(1) > img{
+  width: 400px;
+}
+
+
+#root > div > div > section.others > div:nth-child(1) > div{
+  width: 45%;
+}
+}
+
+@media (max-width: 1400px) {
+  .others {
+    padding: 70px 100px;
+  }
+
+  .others .section {
+    gap: 200px;
+    margin-bottom: 60px;
+  }
+
+  .others .section .data h2 {
+    font-size: 25px;
+  }
+
+  .others .section .data p {
+    font-size: 16px;
+
+    line-height: 26px;
+  }
+
+  .others .section img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .others {
+    padding: 40px 100px;
+  }
+
+  .others .section {
+    flex-direction: column-reverse;
+
+    gap: 50px;
+    margin-bottom: 150px;
+  }
+
+  .others .section.section-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .others .section .data h2 {
+    font-size: 30px;
+  }
+
+  .others .section .data p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #root > div > div > section.others > div:nth-child(1) > div{
+  width: 100%;
+}
+}
+
+
+@media (max-width: 600px) {
+  .others {
+    padding: 40px 30px;
+  }
+
+  .others .section {
+    gap: 20px;
+    margin-bottom: 100px;
+  }
+
+
+  .others .section .data h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .others .section .data p {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+
+  #root > div > div > section.others > div:nth-child(1) > div{
+  width: 100%;
+}
+
+
+    #root > div > div > section.others > div:nth-child(1) > img{
+  width: 200px;
+}
+}
+
+
+
+
+#root > div > div > section.approach > div > div:nth-child(2) > div.data > div.line1,
+#root > div > div > section.approach > div > div:nth-child(3) > div.data > div.line1,
+#root > div > div > section.approach > div > div:nth-child(4) > div.data > div.line1{
+    display: none;
+}
+
+#root > div > div > section.approach > div > div:nth-child(2) > div.data > div.circle,
+#root > div > div > section.approach > div > div:nth-child(3) > div.data > div.circle,
+#root > div > div > section.approach > div > div:nth-child(4) > div.data > div.circle{
+    display: none;
+}
+
+
+#root > div > div > section.approach > div > div:nth-child(4) > div.img > div{
+    display: none;
+}
+
+
+
+.intersection img{
+  width:100%;
+}
