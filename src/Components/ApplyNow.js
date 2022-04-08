@@ -6,7 +6,7 @@ import Contact from "../Pages/Contact/Contact";
 
 
 const ApplyNow = () => {
-  // For opening contact-= us modal form
+  // For opening contact-us modal form
   const [modal, setModal] = useState(false);
   const handleModal = () => {
     setModal(!modal);

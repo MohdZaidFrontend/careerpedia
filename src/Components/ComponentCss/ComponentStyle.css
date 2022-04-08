@@ -3984,17 +3984,16 @@
   z-index: 10;
 }
 
-#root > div > div.tools > div > div.arrow.prev > svg {
-  position: absolute;
-  top: 50%;
-  left: -5%;
-}
 
-#root > div > div.tools > div > div.arrow.next > svg {
-  position: absolute;
-  top: 50%;
-  right: -5%;
-}
+  #root > div > div.tools > div > div.arrow.prev > svg {
+    display: none;
+  }
+
+  #root > div > div.tools > div > div.arrow.next > svg {
+    display: none;
+  }
+
+
 
 @media (max-width: 1700px) {
   .tools {
@@ -4064,13 +4063,6 @@
     margin-bottom: 30px;
   }
 
-  #root > div > div.tools > div > div.arrow.prev > svg {
-    display: none;
-  }
-
-  #root > div > div.tools > div > div.arrow.next > svg {
-    display: none;
-  }
 }
 
 @media (max-width: 800px) {
@@ -4096,14 +4088,18 @@
     > div {
     margin-bottom: 30px;
   }
+.slick-slide.slick-cloned{
+width: 100%;
+}
 
-  #root > div > div.tools > div > div.arrow.prev > svg {
-    display: none;
-  }
 
-  #root > div > div.tools > div > div.arrow.next > svg {
-    display: none;
-  }
+.tools > div{
+   width: 300px;
+    margin: 0 auto;
+}
+
+
+
 }
 
 /************* System Requirement Section Start ***************/
@@ -5119,8 +5115,13 @@
     gap: 15px;
   }
 
+  .course-header .left-section .certifiation .images .bigger-certificate {
+    height: 50px;
+    width: auto;
+  }
+
   .course-header .left-section .certifiation .images img {
-    height: 30px;
+    height: 25px;
   }
 
   .course-header .left-section .boxes {

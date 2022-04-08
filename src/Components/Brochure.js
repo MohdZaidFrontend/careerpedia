@@ -14,12 +14,13 @@ const Brochure = (props) => {
   const [formError, setFormError] = useState({});
   const [alert, setAlert] = useState(false);
 
+  //Get data from input field
   const handleChange = (e) => {
     const { name, value } = e.target;
     setUserData({ ...userData, [name]: value });
   };
 
-  //Submit Form data to firebase
+  //Action when user clicks the submit button
   const handleSubmit = async (e) => {
     e.preventDefault();
     setFormError(validate(userData));
@@ -29,6 +30,7 @@ const Brochure = (props) => {
     }
   };
 
+  //Submit Form data to firebase
   const postData = async () => {
     const { name, phone, email } = userData;
     const res = await fetch(
@@ -57,6 +59,7 @@ const Brochure = (props) => {
     }
   };
 
+  //Validation function
   const validate = (value) => {
     const errors = {};
 
@@ -76,6 +79,8 @@ const Brochure = (props) => {
 
     return errors;
   };
+
+  
   return (
     <div className="overlay">
       <section className="contact">

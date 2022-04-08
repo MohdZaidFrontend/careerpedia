@@ -3,11 +3,13 @@ import Contact from "../Pages/Contact/Contact";
 import Brochure from "./Brochure";
 
 const Banner = () => {
+  // For opening contact-us modal form
   const [modal, setModal] = useState(false);
   const handleModal = () => {
     setModal(!modal);
   };
 
+  // For opening brochure modal form
   const [brochure, setBrochure] = useState(false);
   const handleBrochure = () => {
     setBrochure(!brochure);

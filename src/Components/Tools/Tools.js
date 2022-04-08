@@ -29,8 +29,10 @@ const Tools = ({ toolsImages }) => {
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    // nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
     className: "tools-slider",
     responsive: [
       {
