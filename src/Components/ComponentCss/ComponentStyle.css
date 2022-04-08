@@ -713,7 +713,7 @@
 @media (max-width: 600px) {
   .aim {
     flex-direction: column;
-    padding: 50px 25px;
+    padding: 0px 25px;
     gap: 40px;
   }
 
@@ -1206,7 +1206,7 @@
   font-weight: 700;
 }
 
-.banner .brochure{
+.banner .brochure {
   padding: 18px 30px;
 }
 
@@ -1222,19 +1222,18 @@
     font-size: 17px;
   }
 
-  .banner .brochure{
-  padding: 15px 25px;
+  .banner .brochure {
+    padding: 15px 25px;
+  }
 }
-}
-
 
 @media (max-width: 800px) {
-.banner {
-  width: 80%;
-  gap: 30px;
-  padding: 60px 0;
-  flex-direction: column;
-}
+  .banner {
+    width: 80%;
+    gap: 30px;
+    padding: 60px 0;
+    flex-direction: column;
+  }
 }
 
 /********************* Brands Section Start ************************/
@@ -3807,6 +3806,7 @@
 @media (max-width: 600px) {
   .faq {
     padding: 20px;
+    padding-top: 100px;
     position: relative;
     top: -20px;
     gap: 20px;
@@ -4600,30 +4600,28 @@
   justify-content: center;
   align-items: center;
   padding: 50px 100px;
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   text-align: center;
 }
 
-.filler p{
+.filler p {
   font-size: 18px;
-  line-height: 30px
+  line-height: 30px;
 }
 
-#root > div > section:nth-child(23){
+#root > div > section:nth-child(23) {
   margin-bottom: 50px;
 }
 
-@media(max-width:800px){
+@media (max-width: 800px) {
   .filler {
- 
-  padding: 20px 30px;
+    padding: 20px 30px;
+  }
 
-}
-
-.filler p{
-  font-size: 13px;
-  line-height: 20px
-}
+  .filler p {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
 
 /********************* Footer Start ************************/
@@ -4867,7 +4865,7 @@
 }
 
 .course-header .left-section .certifiation .images .bigger-certificate {
- width: 100px;
+  width: 100px;
 }
 
 .course-header .left-section .certifiation .images span {
@@ -5042,8 +5040,8 @@
   }
 
   .course-header .left-section .certifiation .images .bigger-certificate {
- width: 80px;
-}
+    width: 80px;
+  }
 
   .course-header .left-section .boxes {
     gap: 30px;
@@ -5196,7 +5194,7 @@
 
 .all-brands {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 50px;
@@ -5205,6 +5203,9 @@
 
 .all-brands .img {
   width: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .all-brands .img img {
@@ -5213,13 +5214,13 @@
 
 @media (max-width: 800px) {
   .all-brands {
-    margin: 150px 0;
+    margin: 150px 10px;
     margin-bottom: 10px;
+    margin-left: 20px;
   }
 
   .all-brands .img {
     width: 100%;
-    padding: 0 20px;
   }
 
   .all-brands .img img {
