@@ -46,7 +46,7 @@ const DigitalMarketing = () => {
     googleAds,
   ];
 
-  // Data for CourseHeader Section
+  // Data for Header Section
   const digitalData = [
     {
       id: 1,
@@ -74,7 +74,7 @@ const DigitalMarketing = () => {
         />
 
         <meta
-          name="keywods"
+          name="keywords"
           content=" digital marketing training course, 
                     digital marketing course, 
                     digital marketing courses, 

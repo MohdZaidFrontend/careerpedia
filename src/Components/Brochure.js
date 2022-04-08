@@ -94,6 +94,7 @@ const Brochure = (props) => {
             value={userData.name}
             onChange={handleChange}
             autoComplete="off"
+            placeholder="Enter your name"
           />
           <br />
           <span>{formError.name}</span>
@@ -109,6 +110,7 @@ const Brochure = (props) => {
             value={userData.email}
             onChange={handleChange}
             autoComplete="off"
+            placeholder="Enter your email"
           />
           <br />
           <span>{formError.email}</span>
@@ -124,6 +126,7 @@ const Brochure = (props) => {
             value={userData.phone}
             onChange={handleChange}
             autoComplete="off"
+            placeholder="Enter your phone number"
           />
           <br />
           <span>{formError.phone}</span>

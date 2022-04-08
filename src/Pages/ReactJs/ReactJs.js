@@ -61,7 +61,7 @@ const ReactJs = () => {
         />
 
         <meta
-          name="keyword"
+          name="keywords"
           content="React js Training in Hyderabad Madhapur, 
                   React Js Course in Hyderabad Madhapur, 
                   React Js Institutes in Hyderabad Madhapur, 

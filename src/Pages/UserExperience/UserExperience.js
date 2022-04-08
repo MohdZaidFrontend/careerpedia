@@ -56,7 +56,7 @@ const UserExperience = () => {
         />
 
         <meta
-          name="keyword"
+          name="keywords"
           content="UI UX Design Training in Hyderabad, 
                   UI UX Design Training in Madhapur Hyderabad, 
                   UI UX Design course Online in Hyderabad, 
