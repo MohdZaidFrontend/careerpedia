@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="section-two">
           <div className="social-logo">
             <a
-              href="https://www.instagram.com/careerpediaapp/"
+              href="https://www.instagram.com/careerpedia_upskill/"
               target={"_blank"}
             >
               <img
