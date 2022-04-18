@@ -89,20 +89,20 @@ const ReactJs = () => {
         p2="Learn React JS from industry experts and become a React JS developer in less than 4-weeks."
       />
       <ReactCourses />
-      <Banner />
+      <Banner visibility="hidden" />
       <Certification />
       <Tools toolsImages={toolsImages} />
       <Testimonials />
-      <Banner />
+      <Banner visibility="hidden" />
       <Why />
       <Approach />
-      <Banner />
+      <Banner visibility="hidden" />
       <HiringPartners />
-      <Banner />
+      <Banner visibility="hidden" />
       <Brands />
-      <Banner />
+      <Banner visibility="hidden" />
       <Team />
-      <Banner />
+      <Banner visibility="hidden" />
       <Faq />
       <Footer />
     </>

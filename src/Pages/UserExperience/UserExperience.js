@@ -86,20 +86,20 @@ const UserExperience = () => {
         p2="The course is aimed at aspiring graphic designers, UI/UX designers, and web developers looking forward to developing interface and experience design."
       />
       <UserExperienceCourses />
-      <Banner />
+      <Banner visibility="hidden" />
       <Certification />
       <Tools toolsImages={toolsImages} />
       <Testimonials />
-      <Banner />
+      <Banner visibility="hidden" />
       <Why />
       <Approach />
-      <Banner />
+      <Banner visibility="hidden" />
       <HiringPartners />
-      <Banner />
+      <Banner visibility="hidden" />
       <Brands />
-      <Banner />
+      <Banner visibility="hidden" />
       <Team />
-      <Banner />
+      <Banner visibility="hidden" />
       <Faq />
       <Footer />
     </>

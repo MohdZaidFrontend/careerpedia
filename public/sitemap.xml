@@ -7,7 +7,7 @@
    </url>
 
   
-  
+<!--   
    <url>
       <loc>https://www.careerpedia.co/design</loc>
    </url>
@@ -22,29 +22,37 @@
 
     <url>
       <loc>https://www.careerpedia.co/testing</loc>
-   </url>
+   </url> -->
 
   
   
    <url>
-      <loc>https://www.careerpedia.co/best-institute-in-hyderabad-for-ui-ux-design-course</loc>
+      <loc>/https://www.careerpedia.co/ui-ux-designing-course-madhapur/</loc>
    </url>
 
    <url>
-      <loc>https://www.careerpedia.co/graphic-design-institute-in-hyderabad</loc>
+      <loc>https://www.careerpedia.co/graphic-designing-training-hyderabad/</loc>
    </url>
 
    <url>
-      <loc>https://www.careerpedia.co/reactjs-training-in-hyderabad</loc>
+      <loc>https://www.careerpedia.co/reactjs-training-hyderabad-madhapur/</loc>
+   </url>
+
+    <url>
+      <loc>https://www.careerpedia.co/3D-printing-course-training-hyderabad/</loc>
+   </url>
+
+    <url>
+      <loc>https://www.careerpedia.co/Best-digital-marketing-course-hyderabad/</loc>
    </url>
 
 
-   <url>
+   <!-- <url>
       <loc>https://www.careerpedia.co/python-training-institute-in-hyderabad</loc>
-   </url>
+   </url> -->
 
 
-  <url>
+  <!-- <url>
       <loc>https://www.careerpedia.co/php-training-institute-in-hyderabad</loc>
    </url>
 
@@ -54,6 +62,6 @@
 
     <url>
       <loc>https://www.careerpedia.co/growth-hacking-courses-in-hyderabad</loc>
-   </url>
+   </url> -->
 
 </urlset> 

@@ -95,20 +95,20 @@ const GraphicDesign = () => {
         p2=" The course is primarily directed towards individuals who wish to join design companies or start a career as a graphic design freelancer."
       />
       <GraphicDesignCourses />
-      <Banner />
+      <Banner visibility="hidden" />
       <Certification />
       <Tools toolsImages={toolsImages} />
       <Testimonials />
-      <Banner />
+      <Banner visibility="hidden" />
       <Why />
       <Approach />
-      <Banner />
+      <Banner visibility="hidden" />
       <HiringPartners />
-      <Banner />
+      <Banner visibility="hidden" />
       <Brands />
-      <Banner />
+      <Banner visibility="hidden" />
       <Team />
-      <Banner />
+      <Banner visibility="hidden" />
       <Faq />
       <Footer />
     </>

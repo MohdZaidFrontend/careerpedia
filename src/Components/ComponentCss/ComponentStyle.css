@@ -98,6 +98,10 @@
   .nav-menu {
     gap: 150px;
   }
+
+  .nav-menu .container{
+    margin-right: 100px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -344,6 +348,7 @@
     top: 4vh;
     padding: 0 150px;
     gap: 120px;
+    padding-top: 100px;
   }
 
   .course-header .left-section {
@@ -1208,6 +1213,10 @@
 
 .banner .brochure {
   padding: 18px 30px;
+}
+
+.banner .brochure.hidden{
+  display: none;
 }
 
 @media (max-width: 1700px) {

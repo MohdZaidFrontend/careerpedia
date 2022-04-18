@@ -2,7 +2,7 @@ import { useState } from "react";
 import Contact from "../Pages/Contact/Contact";
 import Brochure from "./Brochure";
 
-const Banner = () => {
+const Banner = ({ visibility }) => {
   // For opening contact-us modal form
   const [modal, setModal] = useState(false);
   const handleModal = () => {
@@ -18,7 +18,7 @@ const Banner = () => {
   return (
     <section className="banner">
       <button onClick={handleModal}>Apply now</button>
-      <button className="brochure" onClick={handleBrochure}>
+      <button className={`brochure ${visibility}`} onClick={handleBrochure}>
         Download Brochure
       </button>
 

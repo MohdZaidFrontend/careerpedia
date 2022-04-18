@@ -92,20 +92,20 @@ const Printing = () => {
         p2=""
       />
       <PrintingCourses />
-      <Banner />
+      <Banner visibility="hidden" />
       <Certification />
       {/* <Tools toolsImages={toolsImages} /> */}
       <Testimonials />
-      <Banner />
+      <Banner visibility="hidden" />
       <Why />
       <Approach />
-      <Banner />
+      <Banner visibility="hidden" />
       <HiringPartners />
-      <Banner />
+      <Banner visibility="hidden" />
       <Brands />
-      <Banner />
+      <Banner visibility="hidden" />
       <Team />
-      <Banner />
+      <Banner visibility="hidden" />
       <Faq />
       <Footer />
     </>
