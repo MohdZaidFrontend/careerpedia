@@ -22,14 +22,13 @@ const Mentor = (props) => {
   };
 
   //Submit Form data to firebase
-
   const submitData = async (event) => {
     event.preventDefault();
     const { name, phone, course, email } = userData;
 
     if (name && phone && course && phone.length == 10) {
       const res = await fetch(
-        "https://mentordata-ab128-default-rtdb.firebaseio.com/MentorData.json",
+        "https://careerpedia-830dd-default-rtdb.firebaseio.com/MentorData.json",
         {
           method: "POST",
           headers: {

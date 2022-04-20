@@ -34,7 +34,7 @@ const Brochure = (props) => {
   const postData = async () => {
     const { name, phone, email } = userData;
     const res = await fetch(
-      "https://careerpedia-data-default-rtdb.firebaseio.com/UserData.json",
+      "https://careerpedia-830dd-default-rtdb.firebaseio.com/BrochureData.json",
       {
         method: "POST",
         headers: {
@@ -89,7 +89,7 @@ const Brochure = (props) => {
         </div>
 
         <form onSubmit={handleSubmit} method="POST" className="brochure-form">
-          <h2>Please Fill Up The Details</h2>
+          <h2>Enter Details for Brochure</h2>
           <label htmlFor="name">
             Name<span style={{ color: "red" }}>*</span>
           </label>

@@ -28,8 +28,9 @@
 
 .overlay .contact h2 {
   color: #2c4364;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .overlay .contact .field {
@@ -94,7 +95,7 @@
   }
 
   .overlay .contact h2 {
-    font-size: 27px;
+    font-size: 20px;
   }
 
   .overlay .contact label {

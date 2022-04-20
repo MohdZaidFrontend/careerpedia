@@ -18,8 +18,6 @@ const Contact = (props) => {
 
 
   let name, value;
-
-
   const postUserData = (event) => {
     name = event.target.name;
     value = event.target.value;
@@ -28,14 +26,13 @@ const Contact = (props) => {
   };
 
   //Submit Form data to firebase
-
   const submitData = async (event) => {
     event.preventDefault();
     const { name, phone, email } = userData;
 
     if (name && phone && phone.length === 10) {
       const res = await fetch(
-        "https://careerpedia-data-default-rtdb.firebaseio.com/UserData.json",
+        "https://careerpedia-830dd-default-rtdb.firebaseio.com/StudentData.json",
         {
           method: "POST",
           headers: {
