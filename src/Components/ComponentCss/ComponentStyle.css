@@ -99,7 +99,7 @@
     gap: 150px;
   }
 
-  .nav-menu .container{
+  .nav-menu .container {
     margin-right: 100px;
   }
 }
@@ -137,6 +137,7 @@
   .nav-menu .container {
     flex-direction: column;
     margin-bottom: 100px;
+    margin-right: 0;
   }
 
   .nav-menu.active {
@@ -723,7 +724,8 @@
   }
 
   .aim h1 {
-    font-size: 38px;
+    text-align: center;
+    font-size: 30px;
   }
 
   .aim h1 span {
@@ -734,8 +736,9 @@
   }
 
   .aim .details p {
+    text-align: center;
     line-height: 30px;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -959,6 +962,31 @@
 @media (max-width: 700px) {
   .why {
     margin-top: 20px;
+    gap: 50px;
+  }
+
+  .why .cards {
+    gap: 30px;
+  }
+
+  .why .cards .card .img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 400px) {
+  .why {
+    gap: 30px;
+  }
+
+  .why .cards .card .img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .why .cards .card p {
+    font-size: 16px;
   }
 }
 
@@ -1118,15 +1146,23 @@
     gap: 120px;
   }
 
-  .approach .sections .section {
+
+
+    .approach .sections .section {
+ 
     gap: 10px;
   }
+
+
 
   .approach .sections .section .data .line1 {
     width: 70px;
 
     left: -80px;
   }
+
+
+  
 
   .approach .sections .section .data .circle {
     left: -80px;
@@ -1146,6 +1182,21 @@
     font-size: 17px;
     line-height: 26px;
   }
+}
+
+@media(max-width:1280px){
+      .approach .sections .section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .approach .sections .section.section-reverse {
+    flex-direction: column;
+  }
+    .approach .sections .section .data{
+    width: 100%;
+  }
+  
 }
 
 @media (max-width: 880px) {
@@ -1183,8 +1234,24 @@
 }
 
 @media (max-width: 510px) {
+  .approach h1 {
+    margin-bottom: 30px;
+  }
   .approach .sections .section .img img {
     width: 300px;
+  }
+
+  .approach .sections .section .data {
+    gap: 10px;
+  }
+  .approach .sections .section .data h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .approach .sections .section .data p {
+    font-size: 15px;
+    line-height: 22px;
   }
 }
 
@@ -1215,7 +1282,7 @@
   padding: 18px 30px;
 }
 
-.banner .brochure.hidden{
+.banner .brochure.hidden {
   display: none;
 }
 
@@ -1399,6 +1466,10 @@
     line-height: 25px;
     font-size: 16px;
   }
+  #root > div > section.brands > div:nth-child(2) {
+  gap: 100px;
+}
+
 }
 
 @media (max-width: 900px) {
@@ -1461,6 +1532,49 @@
   .brands .brand .details p {
     line-height: 22px;
     font-size: 16px;
+  }
+
+  #root > div > section.brands > div:nth-child(2) {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .brands {
+    margin: 0px auto;
+    gap: 30px;
+  }
+
+  .brands .brand {
+    gap: 20px;
+    padding: 20px 22px;
+    padding-bottom: 40px;
+  }
+
+  .brands .brand.brand-reverse {
+    gap: 20px;
+    padding: 20px 22px;
+    padding-bottom: 40px;
+  }
+
+  .brands .brand .img img {
+    height: 100px;
+  }
+
+  .brands .brand .img .aws {
+    margin-top: 20px;
+    height: 90px;
+  }
+
+  .brands .brand .img .linkedIn {
+    height: 140px;
+  }
+
+
+
+  .brands .brand .details p {
+    line-height: 24px;
+    font-size: 15px;
   }
 
   #root > div > section.brands > div:nth-child(2) {
@@ -1547,8 +1661,8 @@
 
 @media (max-width: 1475px) {
   .team .cards {
-    padding: 0 150px;
-    gap: 80px;
+    padding: 0 100px;
+    gap: 50px;
   }
 }
 
@@ -1968,7 +2082,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .course-plan {
     gap: 25px;
   }
@@ -1985,6 +2099,7 @@
 
   .course-content .sections {
     width: 95%;
+    padding: 10px 20px;
   }
   .course-content .sections ol li {
     font-size: 14px;
@@ -3993,16 +4108,13 @@
   z-index: 10;
 }
 
+#root > div > div.tools > div > div.arrow.prev > svg {
+  display: none;
+}
 
-  #root > div > div.tools > div > div.arrow.prev > svg {
-    display: none;
-  }
-
-  #root > div > div.tools > div > div.arrow.next > svg {
-    display: none;
-  }
-
-
+#root > div > div.tools > div > div.arrow.next > svg {
+  display: none;
+}
 
 @media (max-width: 1700px) {
   .tools {
@@ -4071,7 +4183,6 @@
     > div {
     margin-bottom: 30px;
   }
-
 }
 
 @media (max-width: 800px) {
@@ -4097,18 +4208,14 @@
     > div {
     margin-bottom: 30px;
   }
-.slick-slide.slick-cloned{
-width: 100%;
-}
+  .slick-slide.slick-cloned {
+    width: 100%;
+  }
 
-
-.tools > div{
-   width: 300px;
+  .tools > div {
+    width: 300px;
     margin: 0 auto;
-}
-
-
-
+  }
 }
 
 /************* System Requirement Section Start ***************/
@@ -4833,6 +4940,17 @@ width: 100%;
 @media (max-width: 600px) {
   .footer .lower-section .terms {
     width: 300px;
+  }
+
+  .section-one .footer-address p {
+    text-align: center;
+  }
+
+  .section-two .links {
+    gap: 30px;
+  }
+  .footer .lower-section .terms {
+    bottom: 20%;
   }
 }
 

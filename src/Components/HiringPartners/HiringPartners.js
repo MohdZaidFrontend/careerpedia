@@ -43,21 +43,21 @@ const HiringPartners = () => {
     className: "hiring-slider",
     responsive: [
       {
-        breakpoint: 1400,
+        breakpoint: 1450,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1300,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 900,
+        breakpoint: 1100,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -65,7 +65,7 @@ const HiringPartners = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 800,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
