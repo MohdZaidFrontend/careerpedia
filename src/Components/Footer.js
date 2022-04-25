@@ -1,9 +1,18 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import Contact from "../Pages/Contact/Contact";
+// import "../Components/ComponentCss/ComponentStyle.css";
 
-import "../Components/ComponentCss/ComponentStyle.css";
 
 const Footer = () => {
+
+  const [modal, setModal] = useState(false);
+  const handleModal = () => {
+    setModal(!modal);
+  };
+
+
   return (
     <footer className="footer">
       <div className="upper-section">
@@ -73,12 +82,10 @@ const Footer = () => {
           </div>
 
           <div className="links">
-            {/* <Link to="/">About</Link> */}
             <HashLink to="/#programs">Programs</HashLink>
             <HashLink to="/#team">Team</HashLink>
-            <a href="https://forms.gle/4xXp4VjganrCBwhH6" target="_blank">
-              Contact Us
-            </a>
+            <p onClick={handleModal} style={{cursor:"pointer"}}>Contact Us</p>
+            {modal && <Contact event={handleModal} />}
           </div>
         </div>
 

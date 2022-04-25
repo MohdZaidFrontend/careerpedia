@@ -109,7 +109,11 @@
     }
 }
 
-@media(max-width:1100px){
+@media(max-width:1200px){
+
+     .about-header {
+       top: 0;
+     }
     .about-header .sections {
  flex-direction: column-reverse;
   gap: 30px;
@@ -118,18 +122,24 @@
  .about-header .sections .right-section img {
     height: 300px;
   }
+   .about-header .sections .left-section .details p {
+  text-align: center;
+}
 }
 
 
 @media(max-width:700px){
+
+
+
    .about-header {
-    padding: 80px 20px;
+  
+
+    padding: 40px 20px;
     gap: 20px;
   }
 
-  .about-header .sections .left-section .details p {
-  text-align: center;
-}
+
 }
 
 /********************** Quotation Section Start *******************/
@@ -383,6 +393,7 @@
   .others .section .data p {
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
   }
   #root > div > div > section.others > div:nth-child(1) > div{
   width: 100%;
