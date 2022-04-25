@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Contact from "../Pages/Contact/Contact";
-// import "../Components/ComponentCss/ComponentStyle.css";
 
 
 const Footer = () => {
