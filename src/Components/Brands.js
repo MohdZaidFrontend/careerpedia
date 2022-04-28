@@ -31,7 +31,7 @@ const Brands = () => {
         img: LinkedIn,
         imgClass: "linkedIn",
         details:
-          "Building your LinkedIn profile is essential for a successful career. Here at Inkprog, we can guide you on finding and networking with professionals in your industry to optimize your profile to grow in LinkedIn. ",
+          "Building your LinkedIn profile is essential for a successful career. Here at Careerpedia, we can guide you on finding and networking with professionals in your industry to optimize your profile to grow in LinkedIn. ",
       },
       {
         id: 4,
