@@ -78,7 +78,6 @@ const ReactCourses = () => {
     "Arrow Functions",
     "Higher Order Functions",
     "Array Methods",
-    "Template Literals",
     "Destructuring",
     "REST Operator",
     "SPREAD Operator",
