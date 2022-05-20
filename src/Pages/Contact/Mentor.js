@@ -101,7 +101,7 @@ const Mentor = (props) => {
 
           <div className="field">
             <label htmlFor="number">
-              Course intrested in Mentoring 
+              Course interested in Mentoring 
               <span style={{ color: "red" }}> *</span>
             </label>
             <input
