@@ -19,6 +19,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
 import { LiveChatWidget } from "@livechat/widget-react";
+import Registration from "./Pages/Registration/Registration";
 
 function App() {
 
@@ -73,6 +74,11 @@ function App() {
               <Route
                 path="/3D-printing-course-training-hyderabad"
                 element={<Printing />}
+              />
+
+              <Route
+                path="/registration"
+                element={<Registration/>}
               />
             </Routes>
           </ScrollToTop>
