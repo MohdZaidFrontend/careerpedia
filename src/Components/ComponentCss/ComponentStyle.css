@@ -1146,23 +1146,15 @@
     gap: 120px;
   }
 
-
-
-    .approach .sections .section {
- 
+  .approach .sections .section {
     gap: 10px;
   }
-
-
 
   .approach .sections .section .data .line1 {
     width: 70px;
 
     left: -80px;
   }
-
-
-  
 
   .approach .sections .section .data .circle {
     left: -80px;
@@ -1184,8 +1176,8 @@
   }
 }
 
-@media(max-width:1280px){
-      .approach .sections .section {
+@media (max-width: 1280px) {
+  .approach .sections .section {
     flex-direction: column;
     gap: 20px;
   }
@@ -1193,10 +1185,9 @@
   .approach .sections .section.section-reverse {
     flex-direction: column;
   }
-    .approach .sections .section .data{
+  .approach .sections .section .data {
     width: 100%;
   }
-  
 }
 
 @media (max-width: 880px) {
@@ -1467,9 +1458,8 @@
     font-size: 16px;
   }
   #root > div > section.brands > div:nth-child(2) {
-  gap: 100px;
-}
-
+    gap: 100px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -1569,8 +1559,6 @@
   .brands .brand .img .linkedIn {
     height: 140px;
   }
-
-
 
   .brands .brand .details p {
     line-height: 24px;
@@ -3196,14 +3184,14 @@
   }
 }
 
-@media(max-width:1100px){
-    .testimonial-container {
+@media (max-width: 1100px) {
+  .testimonial-container {
     padding: 80px 100px;
   }
 }
 
-@media(max-width:900px){
-   .testimonial-section {
+@media (max-width: 900px) {
+  .testimonial-section {
     flex-direction: column;
     gap: 30px;
   }
@@ -4723,7 +4711,7 @@
   justify-content: center;
   align-items: center;
   padding: 50px 100px;
-  background-color: #dbdbdb;  
+  background-color: #dbdbdb;
   text-align: center;
 }
 
@@ -4736,9 +4724,8 @@
   margin-bottom: 50px;
 }
 
-#root > div > section:nth-child(14){
-    margin-bottom: 100px;
-
+#root > div > section:nth-child(14) {
+  margin-bottom: 100px;
 }
 
 @media (max-width: 800px) {
@@ -4789,7 +4776,7 @@
 }
 
 .section-one .careerpedia-logo {
-  height: 27px;
+  height: 35px;
 }
 
 .section-one .footer-address {
@@ -4804,8 +4791,9 @@
 }
 
 .section-two {
- /* position: absolute;
-  left: 45%; */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 
   display: flex;
   flex-direction: column;
@@ -4852,6 +4840,14 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.footer .combine {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 10px;
 }
 
 @media (max-width: 1600px) {
@@ -4967,17 +4963,6 @@
     bottom: 20%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .course-header .left-section .star {
   display: flex;

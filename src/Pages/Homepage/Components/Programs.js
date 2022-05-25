@@ -66,7 +66,7 @@ const Programs = () => {
                 <h3>{heading}</h3>
               </Link>
               <Link to={link}>
-                <p>4 weeks, weekday cohort</p>
+                <p>3 months, weekday cohort</p>
               </Link>
 
               

@@ -68,7 +68,7 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://wa.me/919030924741?text=Hello there!"
+              href=" https://www.youtube.com/channel/UC1QeHdQkdeY18NBNZPqFbZA"
               target={"_blank"}
             >
               <img
@@ -83,7 +83,9 @@ const Footer = () => {
           <div className="links">
             <HashLink to="/#programs">Programs</HashLink>
             <HashLink to="/#team">Team</HashLink>
-            <p onClick={handleModal} style={{cursor:"pointer"}}>Contact Us</p>
+            <p onClick={handleModal} style={{ cursor: "pointer" }}>
+              Contact Us
+            </p>
             {modal && <Contact event={handleModal} />}
           </div>
         </div>
@@ -107,11 +109,13 @@ const Footer = () => {
           </p>
         </a>
 
-        <p className="terms" style={{ textAlign: "center" }}>
-          Terms and Conditions | Privacy Policy | Cookie Policies
-        </p>
+        <div className="combine">
+          <p>© 2021. Careerpedia. All Rights Reserved.</p>
 
-        <p>© 2021. Careerpedia. All Rights Reserved.</p>
+          <p  style={{ textAlign: "center" }}>
+            Terms and Conditions | Privacy Policy | Cookie Policies
+          </p>
+        </div>
       </div>
     </footer>
   );

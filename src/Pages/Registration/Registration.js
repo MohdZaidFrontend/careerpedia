@@ -3,6 +3,12 @@ import VideoPlayer from "react-video-js-player";
 import video from "../../Assets/Video/video1.mp4";
 import thumbnail from "../../Assets/NewAssets/poster.jpg";
 
+import pic1 from "../../Assets/NewAssets/registration3.jpeg";
+import pic2 from "../../Assets/NewAssets/registration2.jpeg";
+import pic3 from "../../Assets/NewAssets/registration1.jpeg";
+
+import ModalImage from "react-modal-image";
+
 const Registration = () => {
   const videoSrc = video;
   const poster = thumbnail;
@@ -25,16 +31,19 @@ const Registration = () => {
           className="celebrations2"
         />
 
-        <h2>Thank You</h2>
+        <h2>Thank You For Choosing Careerpedia</h2>
 
         <p>Next steps to be followed</p>
 
         <VideoPlayer src={videoSrc} poster={poster} />
 
+        <h2 className="steps">Steps after the payment is done</h2>
+
         <div className="cards">
           <div className="card">
             <h3>Step 1</h3>
-            <img src={require("../../Assets/underConstruction.png")} alt="" />
+            <ModalImage small={pic1} large={pic1} alt="" />
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus repellendus porro eum perspiciatis? Ad aliquam amet
@@ -44,7 +53,8 @@ const Registration = () => {
 
           <div className="card">
             <h3>Step 2</h3>
-            <img src={require("../../Assets/underConstruction.png")} alt="" />
+            <ModalImage small={pic2} large={pic2} alt="Hello World!" />
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus repellendus porro eum perspiciatis? Ad aliquam amet
@@ -54,7 +64,8 @@ const Registration = () => {
 
           <div className="card">
             <h3>Step 3</h3>
-            <img src={require("../../Assets/underConstruction.png")} alt="" />
+
+            <ModalImage small={pic3} large={pic3} alt="Hello World!" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus repellendus porro eum perspiciatis? Ad aliquam amet
@@ -63,7 +74,11 @@ const Registration = () => {
           </div>
         </div>
 
-        <h3>Lorem ipsum dolor amet adipisicing elit. Quas, eos?</h3>
+        <h3>Now, Start your journey with careerpedia.</h3>
+        <h4>
+          For further assistance, please feel free to mail us at{" "}
+          <span>contact@careerpedia.com</span>
+        </h4>
       </div>
 
       <footer className="footer">
