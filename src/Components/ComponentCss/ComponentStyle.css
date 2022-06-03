@@ -4794,7 +4794,6 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -4842,13 +4841,6 @@
   transform: translateX(-50%);
 }
 
-.footer .combine {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-direction: column;
-  gap: 10px;
-}
 
 @media (max-width: 1600px) {
   .footer {
@@ -4908,6 +4900,7 @@
 
   .footer .upper-section .section-two {
     order: 3;
+
   }
 
   .footer .upper-section .section-three {
@@ -4929,9 +4922,12 @@
   }
 
   .section-two {
+    transform: translateX(0);
     position: static;
     left: 0;
   }
+
+ 
 
   .footer .lower-section {
     margin-top: 40px;
@@ -4963,6 +4959,18 @@
     bottom: 20%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .course-header .left-section .star {
   display: flex;

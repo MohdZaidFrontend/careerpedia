@@ -109,13 +109,11 @@ const Footer = () => {
           </p>
         </a>
 
-        <div className="combine">
-          <p>© 2021. Careerpedia. All Rights Reserved.</p>
+        <p className="terms" style={{ textAlign: "center" }}>
+          Terms and Conditions | Privacy Policy | Cookie Policies
+        </p>
 
-          <p  style={{ textAlign: "center" }}>
-            Terms and Conditions | Privacy Policy | Cookie Policies
-          </p>
-        </div>
+        <p>© 2021. Careerpedia. All Rights Reserved.</p>
       </div>
     </footer>
   );

@@ -20,7 +20,7 @@
 
 @media (max-width: 1200px) {
   .registration {
-    padding:50px 50px;
+    padding: 50px 50px;
     gap: 40px;
   }
 }
@@ -96,11 +96,14 @@
   font-weight: 700;
 }
 
-@media(max-width:1400px){
-  .registration h2 {
-  font-size: 35px;
- 
+.registration p {
+  text-align: center;
 }
+
+@media (max-width: 1400px) {
+  .registration h2 {
+    font-size: 35px;
+  }
 }
 
 .video-js {
@@ -143,8 +146,7 @@
   }
 }
 
-
-.registration .steps{
+.registration .steps {
   margin-top: 100px;
   font-weight: 300;
 }
@@ -152,7 +154,7 @@
 .registration .cards {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 50px;
@@ -184,11 +186,11 @@
   font-weight: 300;
 }
 
-.registration h4{
+.registration h4 {
   text-align: center;
 }
 
-.registration h4 span{
+.registration h4 span {
   color: blue;
 }
 

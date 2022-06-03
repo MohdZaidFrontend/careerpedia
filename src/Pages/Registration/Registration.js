@@ -33,7 +33,7 @@ const Registration = () => {
 
         <h2>Thank You For Choosing Careerpedia</h2>
 
-        <p>Next steps to be followed</p>
+        <p>Next steps to be followed (Please watch the video)</p>
 
         <VideoPlayer src={videoSrc} poster={poster} />
 
@@ -42,34 +42,41 @@ const Registration = () => {
         <div className="cards">
           <div className="card">
             <h3>Step 1</h3>
-            <ModalImage small={pic1} large={pic1} alt="" />
+            <ModalImage small={pic1} large={pic1} alt="Emails you receive" />
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus repellendus porro eum perspiciatis? Ad aliquam amet
-              necessitatibus quos accusamus quae.
+              After successfully completing the payment, please check your
+              registered email for a mail with the subject line “Add a password
+              to your new account at Careerpedia ''. If in case you don’t see
+              the mail make sure to check the spam folder.
             </p>
           </div>
 
           <div className="card">
             <h3>Step 2</h3>
-            <ModalImage small={pic2} large={pic2} alt="Hello World!" />
+            <ModalImage small={pic2} large={pic2} alt="Change your password" />
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus repellendus porro eum perspiciatis? Ad aliquam amet
-              necessitatibus quos accusamus quae.
+              Open the email and click on the link that says “Clicking here”,
+              this step will take you to the course page with a pop up asking
+              you to update your password, please give your desigred password
+              and access your course.
             </p>
           </div>
 
           <div className="card">
             <h3>Step 3</h3>
 
-            <ModalImage small={pic3} large={pic3} alt="Hello World!" />
+            <ModalImage
+              small={pic3}
+              large={pic3}
+              alt="Star welcome email for future reference to access the course"
+            />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus repellendus porro eum perspiciatis? Ad aliquam amet
-              necessitatibus quos accusamus quae.
+              Go to your registered email and check for a mail and check for a
+              mail with subject line “ Welcome to //course//” mail, open it and
+              you’ll find the link to your course page, star mark the mail for
+              your future reference.
             </p>
           </div>
         </div>
@@ -133,7 +140,7 @@ const Registration = () => {
                   loading="eager"
                 />
               </a>
-              <a
+              {/* <a
                 href="https://wa.me/919030924741?text=Hello there!"
                 target={"_blank"}
               >
@@ -143,7 +150,7 @@ const Registration = () => {
                   title="careerpedia whatsapp logo"
                   loading="eager"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
 
